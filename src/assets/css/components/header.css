@@ -1,0 +1,21 @@
+header {
+	visibility: hidden;
+	background-color: #111418;
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 4;
+}
+
+header svg {
+	cursor: pointer;
+}
+
+@media (max-width: 767px) {
+	header {
+		display: flex !important;
+		visibility: visible;
+	}
+}

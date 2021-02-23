@@ -1,0 +1,13 @@
+.group {
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(auto-fill, 260px);
+	grid-gap: 70px;
+	justify-content: center;
+}
+
+.group figure,
+.group figure img {
+	margin: auto;
+	display: block;
+}

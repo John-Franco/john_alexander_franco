@@ -1,0 +1,12 @@
+#tsparticles {
+	background: #222222;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+
+#whatIdo .page-body,
+#whatIdo .page-head {
+	z-index: 2;
+}

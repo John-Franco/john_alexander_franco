@@ -1,0 +1,41 @@
+.parallax {
+	background-image: url(../../media/img/pages/home/coder.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center 0px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+
+.content {
+	position: relative;
+	z-index: 2;
+}
+
+h2 strong {
+	font-size: 3rem;
+}
+
+.writing-text {
+	font-family: "Oxygen-Bold", sans-serif;
+}
+
+.writing-text_cursor {
+	width: 100%;
+	height: 100%;
+	animation: pulse 0.7s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
