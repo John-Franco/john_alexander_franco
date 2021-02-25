@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { FaHome, FaUserAlt, FaTools, FaBook, FaBriefcase, FaPhoneAlt } from "react-icons/fa";
 
 import SidebarView from "./sidebarView";
@@ -44,15 +44,7 @@ const SidebarContainer = ({ handleShowSidebar, showSidebarState, getHeightHeader
 			className: "nav-item",
 		},
 	];
-	const handleGetMenuActive = () => {
-		let currentMenuActive = sidebarOptions.filter(
-			(currentMenu) => currentMenu.path == window.location.pathname
-		);
-		setMenuActive({ active: currentMenuActive ? currentMenuActive[0].title : "" });
-	};
-	useEffect(() => {
-		handleGetMenuActive();
-	}, []);
+
 
 	return (
 		<SidebarView
